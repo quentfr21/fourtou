@@ -1,0 +1,60 @@
+item.pioche.name=Pickshoaxe
+item.pick.name=Pick
+item.piochecore.name=Pickshoaxe Core
+item.casque.name=casque itech
+item.torse.name=torse itech
+item.fut.name=pantalon itech
+item.saut.name=module de saut
+item.amorti.name=module d amortissement
+item.corecasque.name=casque Core
+item.coretorse.name=torse Core
+item.bot.name=botte itech
+item.selecteurvitesse.name=magic placer
+item.reparation.name=clef de reparation d'armure
+
+item.thermalHelm1.name=Thermal Padding Boosted Helm
+item.thermalChestplate1.name=Thermal Padding Boosted Chestpiece
+item.thermalLeggings1.name=Thermal Padding Boosted Leggings
+item.thermalBoots1.name=Thermal Padding Boosted Boots
+
+tile.icestairs.name= ice stairs
+tile.glassstairs.name=glass stairs
+tile.ironstairs.name=iron stairs
+tile.dirtstairs.name=dirt stairs
+tile.goldstairs.name=gold stairs
+tile.diamstairs.name=diamond stairs
+tile.emeraldstairs.name=emerald stairs
+tile.coalstairs.name=coal stairs
+tile.redstonestairs.name=redstone stairs
+tile.lapisstairs.name=lapis stairs
+tile.glowstairs.name=glowstone stairs
+
+tile.flamableairstone.name=flamable air stone
+tile.flamablestone.name=flamable stone
+
+key.categories.modmoi=fourtou(42)
+key.boost=boost
+key.flight=flight mode
+key.nvision=night vision
+
+entity.minion.name=Minion
+entity.perceval.name=Perceval wip
+entity.caradoc.name=Caradoc wip
+
+achievement.casque.desc=Whaou un casque avec vision de nuit
+achievement.casque=Super casque
+
+achievement.torse.desc=C'est un oiseau,C'est un avion,NON
+achievement.torse=Super torse
+
+achievement.fut=Super pantalon
+achievement.fut.desc=Vif comme l'éclair
+
+achievement.botte=Super botte
+achievement.botte.desc=Pas mal l'amortissement
+
+achievement.pioche=Sympa la pioche
+achievement.pioche.desc=Clic droit pour changer de mode
+
+achievement.booster=L'ingenieur
+achievement.booster.desc=L'outil qui change tout (sur l'armure) :)

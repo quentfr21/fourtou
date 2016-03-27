@@ -1,0 +1,233 @@
+{
+    "mob.minion.say":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+            "mob/minion/say",
+            "mob/minion/say1",
+			"mob/minion/say2",
+			"mob/minion/say3",
+			"mob/minion/say4",
+			"mob/minion/say5",
+			"mob/minion/say6",
+			"mob/minion/say7"
+			
+        ]
+    },
+	 "cake":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+            "mob/minion/cake"
+        ]
+    },
+	"cakeok":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+            "mob/minion/cakeok"
+        ]
+    },
+	"on":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+            "item/on"
+        ]
+    },
+	"off":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+            "item/off"
+        ]
+    },
+	"danger":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+            "item/danger"
+        ]
+    },
+    "mob.minion.death":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+            "mob/minion/death",
+			"mob/minion/death1",
+			"mob/minion/death2"
+			
+        ]
+    },
+    "mob.minion.hurt":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+	
+			"mob/minion/hurt",
+            "mob/minion/hurt1",
+			"mob/minion/hurt2",
+			"mob/minion/hurt3"
+			
+           
+        ]
+    },
+	"mob.minion.step":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+			"mob/minion/step"
+           
+        ]
+    },
+	"mob.caradoc.say":
+    {
+        "category": "neutral",
+		"sounds":
+        [
+				
+            "mob/caradoc/dlamerde",
+            "mob/caradoc/gras",
+			"mob/caradoc/groskara"
+			
+        ]
+    },
+	"mob.perceval.death":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+            "mob/minion/death",
+			"mob/minion/death1",
+			"mob/minion/death2"
+        ]
+    },
+    "mob.perceval.hurt":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			"mob/minion/hurt",
+            "mob/minion/hurt1",
+			"mob/minion/hurt2",
+			"mob/minion/hurt3"
+           
+        ]
+    },
+	"mob.perceval.step":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			"mob/minion/step"
+           
+        ]
+    },
+	"mob.perceval.say":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+            "mob/perceval/cpasfaux",
+            "mob/perceval/grosperc",
+			"mob/perceval/katact",
+			"mob/perceval/koi",
+			"mob/perceval/sloubi"
+			
+			
+        ]
+    },
+	"mob.caradoc.death":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+            "mob/minion/death",
+			"mob/minion/death1",
+			"mob/minion/death2"
+        ]
+    },
+    "mob.caradoc.hurt":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			"mob/minion/hurt",
+            "mob/minion/hurt1",
+			"mob/minion/hurt2",
+			"mob/minion/hurt3"
+           
+        ]
+    },
+	"casque":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			
+			"item/casque"
+           
+        ]
+    },
+	"bot":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			
+			"item/bot"
+           
+        ]
+    },
+	"torse":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			
+			"item/torse"
+           
+        ]
+    },
+	"gg":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			
+			"joueur/gg"
+           
+        ]
+    },
+	"mob.caradoc.step":
+    {
+        "category": "neutral",
+        "sounds":
+        [
+		
+			"mob/minion/step"
+           
+        ]
+    }
+}
