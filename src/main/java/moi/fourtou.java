@@ -12,15 +12,15 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = armormod.modid, name = "armure de ouf", version = "1.4")
+@Mod(modid = fourtou.modid, name = "armure de ouf", version = "1.4")
 
-public class armormod {
+public class fourtou {
 	@SidedProxy(clientSide="moi.proxy.ClientProxy", serverSide="moi.proxy.ServerProxy")
 	public static CommonProxy proxy;
 
 
 	
-	public static final String modid = "armormod";
+	public static final String modid = "foutou";
 
 	
 	@EventHandler

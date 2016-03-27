@@ -71,7 +71,7 @@ public class itemarmor extends ItemArmor{
 		
 		if (torse != null && torse.getItem() == reg.torse){
 		
-		if (handlekeb.boostpressed && Minecraft.getMinecraft().gameSettings.keyBindJump.getIsKeyPressed() && handlekeb.mode == 1){
+		if (handlekeb.boostpressed && Minecraft.getMinecraft().gameSettings.keyBindJump.getIsKeyPressed() && handlekeb.mode == 1 && player.capabilities.isFlying){
 			
 			player.motionY = 1.3;
 		}
@@ -84,10 +84,9 @@ public class itemarmor extends ItemArmor{
 		}
 		
 		if (torse != null && torse.getItem() == reg.torse && handlekeb.mode == 1) {
-			//player.fallDistance = 0.0F;
+		
 			player.capabilities.allowFlying = true;
-		//	player.capabilities.isFlying = true;
-			if (player.isBurning()){
+				if (player.isBurning()){
 				player.extinguish();}
 			}
 		
@@ -117,7 +116,7 @@ public class itemarmor extends ItemArmor{
 		 if (bot != null && bot.getItem() == reg.bot) {
 			player.fallDistance = 0.0F;
 			
-			if(handlekeb.botboostpressed && handlekeb.mode == 0){
+			if(handlekeb.botboostpressed && handlekeb.mode == 0 && !player.capabilities.isFlying){
 				player.addPotionEffect(new PotionEffect(Potion.jump.id,1,8));
 				}
 			else{player.removePotionEffectClient(Potion.jump.id);}

@@ -1,6 +1,6 @@
 package moi.mob;
 
-import moi.armormod;
+import moi.fourtou;
 import moi.config.conf;
 import net.minecraft.entity.EntityList;
 import net.minecraft.entity.EnumCreatureType;
@@ -37,7 +37,7 @@ public class entitymobregistry {
 	public static void createEntity(Class entityClass, String entityName, int solidColor, int spotColor){
 		int uniqueId = EntityRegistry.findGlobalUniqueEntityId();
 		EntityRegistry.registerGlobalEntityID(entityClass, entityName, uniqueId);
-		EntityRegistry.registerModEntity(entityClass, entityName, uniqueId, armormod.modid, 64, 1, true);
+		EntityRegistry.registerModEntity(entityClass, entityName, uniqueId, fourtou.modid, 64, 1, true);
 		EntityList.entityEggs.put(Integer.valueOf(uniqueId), new EntityList.EntityEggInfo(uniqueId, solidColor, spotColor));
 		
 	}
